@@ -163,33 +163,7 @@ public:
 int main()
 {
     LinkedList list;
-    int item;
-    cout << "Enter Item:";
-    cin >> item;
-    list.InsertFirst(item);
-
-    cout << "Enter Item:";
-    cin >> item;
-    list.InsertFirst(item);
-
-    cout << "Enter Item:";
-    cin >> item;
-    list.InsertFirst(item);
-
-    cout << "Enter Item:";
-    cin >> item;
-    list.InsertFirst(item);
-
-    cout << "Enter Item:";
-    cin >> item;
-    list.InsertFirst(item);
-    list.Display();
-    cout << "Enter Delete item: ";
-    cin >> item;
-    list.Delete(item);
-
-    list.Display();
-
+    
 
     return 0;
 }
